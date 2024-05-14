@@ -25,7 +25,7 @@ def triple_value(n) -> int:
 # Dane wejściowe: brak
 # Wynik:
 # metoda wykorzystująca dekorator @time_decorator i posiadająca argument n, m
-def make_factorial() -> callable:
+def make_power() -> callable:
     # @timer_decorator
     # def power(n, m):
 

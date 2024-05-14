@@ -3,7 +3,7 @@ import re
 import unittest
 from unittest.mock import patch
 
-from zad1 import double_value, triple_value, make_factorial
+from zad1 import double_value, triple_value, make_power
 
 import inspect
 
@@ -26,7 +26,7 @@ class TestZad1(unittest.TestCase):
         self.assertFalse(check_for_operators(triple_value))
 
     def test_make_factorial(self):
-        power = make_factorial()
+        power = make_power()
         self.assertEqual(power(2, 3), 8)
         self.assertEqual(power(5, 0), 1)
         self.assertEqual(power(0, 5), 0)
