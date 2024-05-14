@@ -19,27 +19,27 @@ def is_for_in_method_body(func):
 
 class TestZad1(unittest.TestCase):
 
-    def test_get_total_grades(self):
+    def test_1(self):
         self.assertEqual(get_total_grades(students), 160)
         self.assertFalse(is_for_in_method_body(get_total_grades))
 
-    def test_get_total_age_of_science_students(self):
+    def test_2(self):
         self.assertEqual(get_total_age_of_science_students(students), 63)
         self.assertFalse(is_for_in_method_body(get_total_age_of_science_students))
 
-    def test_get_students_with_excellent_grades(self):
+    def test_3(self):
         excellent_students = get_students_with_excellent_grades(students)
         for student in excellent_students:
             self.assertTrue(student.grades.count(5) > 2)
         self.assertFalse(is_for_in_method_body(get_students_with_excellent_grades, ))
 
-    def test_get_students_sorted_by_grades(self):
+    def test_4(self):
         sorted_students = get_students_sorted_by_grades(students)
         for i in range(len(sorted_students) - 1):
             self.assertTrue(mean(sorted_students[i].grades) >= mean(sorted_students[i + 1].grades))
         self.assertFalse(is_for_in_method_body(get_students_sorted_by_grades))
 
-    def test_get_better_grades(self):
+    def test_5(self):
         better_students = get_better_grades(students)
         for student in better_students:
             for grade in student.grades:

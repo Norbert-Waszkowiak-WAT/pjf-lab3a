@@ -8,8 +8,8 @@ python -m unittest test_zad1.py
 python -m unittest test_zad2.py
 ```
 ### Punktacja:
-- Zadanie 1: 10 pkt
-- Zadanie 2: 15 pkt
+- Zadanie 1: 15 pkt
+- Zadanie 2: 35 pkt
 
 # Programowanie funkcyjne w Pythonie
 
