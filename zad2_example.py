@@ -2,7 +2,7 @@
 # Używamy map z wyrażeniem lambda do zwiększenia wieku każdego studenta o 1 rok
 from statistics import mean
 
-from mod2.do_not_modify.data import Student
+from do_not_modify.data_zad2 import Student
 
 def get_older_students(students):
     return list(map(lambda student: Student(student.name, student.age + 1, student.grades), students))
