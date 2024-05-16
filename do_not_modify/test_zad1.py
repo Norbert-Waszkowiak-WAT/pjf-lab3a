@@ -25,7 +25,7 @@ class TestZad1(unittest.TestCase):
         self.assertEqual(triple_value(-2), -6)
         self.assertFalse(check_for_operators(triple_value))
 
-    def test_make_factorial(self):
+    def test_make_power(self):
         power = make_power()
         self.assertEqual(power(2, 3), 8)
         self.assertEqual(power(5, 0), 1)
