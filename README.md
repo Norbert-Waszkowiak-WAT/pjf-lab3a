@@ -4,12 +4,16 @@
 Zadanie znajdują się w pliku _zad1.py_ i _zad2.py_.
 Aby uruchomić testy jednostkowe, należy uruchomić polecenie:
 ```bash
-python -m unittest test_zad1.py
-python -m unittest test_zad2.py
+PYTHONPATH=$PYTHONPATH:`pwd` python -m unittest do_not_modify/test_zad1.py
+PYTHONPATH=$PYTHONPATH:`pwd`  python -m unittest -k test_1 do_not_modify/test_zad2.py
+PYTHONPATH=$PYTHONPATH:`pwd`  python -m unittest -k test_2 do_not_modify/test_zad2.py
+PYTHONPATH=$PYTHONPATH:`pwd`  python -m unittest -k test_3 do_not_modify/test_zad2.py
+PYTHONPATH=$PYTHONPATH:`pwd`  python -m unittest -k test_4 do_not_modify/test_zad2.py
+PYTHONPATH=$PYTHONPATH:`pwd`  python -m unittest -k test_5 do_not_modify/test_zad2.py
 ```
 ### Punktacja:
 - Zadanie 1: 15 pkt
-- Zadanie 2: 35 pkt
+- Zadanie 2: 5x7 = 35 pkt
 
 # Programowanie funkcyjne w Pythonie
 
