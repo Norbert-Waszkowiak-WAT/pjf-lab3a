@@ -22,7 +22,7 @@ def get_students_with_excellent_grades(students):
 def get_students_sorted_by_grades(students):
     pass
 
-# Napisz funkcję get_better_grades(students), która zwraca listę studentów, których oceny zostały zwiększone o 20.
+# Napisz funkcję get_better_grades(students), która zwraca listę studentów, których każda ocena została zwiększona o 1 ale nie wiecej niż na 5.
 def get_better_grades(students):
     pass
 
