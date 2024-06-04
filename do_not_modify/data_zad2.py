@@ -17,5 +17,5 @@ students = [
     Student("Oliver", 15, [3, 3, 3, 3], "Warsaw University of Technology", "Arts", "oliver@example.com"),
     Student("Sophia", 16, [4, 4, 4, 4], "Warsaw University of Technology", "Science", "sophia@example.com"),
     Student("Lucas", 17, [5, 5, 5, 5], "Warsaw University of Technology", "Mathematics", "lucas@example.com"),
-    Student("Ava", 16, [3, 3, 3, 3], "Warsaw University of Technology", "Arts", "ava@example.com"),
+    Student("Ava", 16, [1, 3, 3, 3], "Warsaw University of Technology", "Arts", "ava@example.com"),
 ]
