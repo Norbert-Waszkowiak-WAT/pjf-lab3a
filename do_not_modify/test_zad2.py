@@ -43,7 +43,7 @@ class TestZad1(unittest.TestCase):
         better_students = get_better_grades(students)
         for student in better_students:
             for grade in student.grades:
-                self.assertTrue(grade % 20 == 0)
+                self.assertTrue(grade > 1 and grade <= 5)
         self.assertFalse(is_for_in_method_body(get_better_grades))
 
 
